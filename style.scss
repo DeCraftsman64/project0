@@ -1,0 +1,43 @@
+div {
+    font-size: 18px;
+
+    p {
+        color: blue;
+    }
+
+    ul {
+        color: green;
+    }
+}
+
+body {
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    font-size: 81.25%;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+}
+ 
+
+%divisions {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+
+    
+}
+
+.header {
+    @extend %message;
+    background-color: green;
+}
+
+.logo {
+    @extend %message;
+    background-color: orange;
+}
+
+.error {
+    @extend %message;
+    background-color: red;
+}
