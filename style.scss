@@ -1,3 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+%font {
+    font-size: 13px;
+}
+
+header {
+    @extend %font;
+    display: flex;
+    align-items: center;
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+/*
+//nesting
 div {
     font-size: 18px;
 
@@ -17,8 +37,9 @@ body {
     margin: 0px;
     display: block;
 }
- 
 
+
+//inheritance
 %divisions {
     padding: 0px;
     margin: 0px;
@@ -41,3 +62,4 @@ body {
     @extend %message;
     background-color: red;
 }
+*/
