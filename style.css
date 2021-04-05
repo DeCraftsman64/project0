@@ -1,58 +1,45 @@
-//$font: 
-
 body {
-    font-family: Arial, sans-serif;
-    width: 100%;
-    height: 100%;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  height: 100%;
 }
 
 a {
-    text-decoration: none;
-}
-
-%font {
-    font-size: 13px;
+  text-decoration: none;
 }
 
 header {
-    @extend %font;
-    //display: flex;
-    //align-items: center;
-    a {
-        color: black;
-        padding: 10px;
-    }
+  font-size: 13px;
 }
 
-%divs {
-    width: 100%;
-    align-items: center;
-    padding: 10px;
+header a {
+  color: black;
+  padding: 10px;
+}
+
+.div4, .div1 {
+  width: 100%;
+  align-items: center;
+  padding: 10px;
 }
 
 .div1 {
-    @extend %divs;
-    align-items: flex-end;
-    //float: right;
+  align-items: flex-end;
 }
 
 .div4 {
-    @extend %divs;
-    background-color: #dadce0;
-    font-size: 15px;
-    height: 48px;
-
+  background-color: #dadce0;
+  font-size: 15px;
+  height: 48px;
 }
 
 footer {
-    position: sticky;
-    bottom: 0;
-    vertical-align: bottom;
-    text-align: center;
-    padding-top: 2px;
+  position: sticky;
+  bottom: 0;
+  vertical-align: bottom;
+  text-align: center;
+  padding-top: 2px;
 }
-
- 
 
 /*
 I'm not sure about when to use nesting or inheritance or variables, in all cases the idea is not to repeat or be able to replace without going through all the code, so I could just use one!?
@@ -85,7 +72,7 @@ body {
     margin: 0px;
     text-align: center;
 
-    
+
 }
 
 .header {
@@ -103,3 +90,5 @@ body {
     background-color: red;
 }
 */
+
+/*# sourceMappingURL=style.css.map */
