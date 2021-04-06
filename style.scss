@@ -301,5 +301,42 @@ div[class=footer-container] {
 }
 
 
+// Not edited yet copied from gogole search page
+.c93Gbe{background:#f2f2f2}
+
+.uU7dJb{
+    padding:15px 30px;
+    border-bottom:1px solid #dadce0;
+    font-size:15px;color:rgba(0,0,0,.54)
+}
+.SSwjIe{padding:0 20px}
+
+.KxwPGc{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between
+}
+
+@media only screen and (max-width:1200px){
+    .KxwPGc{justify-content:space-evenly}
+}
+
+.pHiOh{
+    display:block;
+    padding:15px;
+    white-space:nowrap;
+}
+
+a.pHiOh{
+    color:#70757a;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+
+
 
 
