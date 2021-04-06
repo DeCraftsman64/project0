@@ -15,9 +15,6 @@ body {
     @extend  %deafult-text-layout;
     background: #fff;
     min-width: 400px;
-    height: 100%;
-    margin: 0;
-    padding: 0;
 }
 
 div[class=main-container] {
@@ -37,26 +34,6 @@ div[class=nav-container] {
     .navbar {
         display: inline-block;
         flex-grow: 1; // To fill parent
-        
-        
-        // .links-container {
-        //     color: black;
-        //     font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
-        //     vertical-align: middle;
-        //     white-space: nowrap;
-        //     -webkit-box-align: center;
-        //     align-items: center;
-        //     display: flex;
-        //     box-sizing: border-box;
-        //     height: 48px;
-        //     line-height: normal;
-        //     padding: 0 4px;
-        //     flex: 0 0 auto;
-        //     justify-content: flex-end;
-        //     float: right;
-        //     padding-left: 0;
-        // }
-
     }
 
     .links-container {
@@ -101,6 +78,10 @@ div[class=nav-container] {
             display: inline-block;
             line-height: 24px;
             vertical-align: middle;
+
+            &:hover {
+                text-decoration: underline;
+            }
         }
     }
 
@@ -148,7 +129,6 @@ div[class=form-container] {
             padding-top: 6px;
             width: auto;
             max-width: 584px;
-            
         }
 
         .btn-div {
@@ -192,6 +172,13 @@ div[class=form-container] {
             margin: 0 auto;
             width: auto;
             max-width: 584px;
+
+
+            &:hover {    
+                background-color: #fff;
+                box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+                border-color: rgba(223,225,229,0);
+            }
 
             .content {
                 flex: 1;
@@ -313,17 +300,6 @@ div[class=footer-container] {
     
 }
 
-
-
-
-// .links {
-//     color: black;
-//     font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
-//     white-space: nowrap;
-//     font-family: arial,sans-serif;
-//     line-height: normal;
-//     padding-right: 15px; 
-// }
 
 
 
